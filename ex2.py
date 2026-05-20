@@ -11,6 +11,7 @@ class NotSleeping:
         self.name = name
         self.count_sheeps = count_sheeps
 
+    
     def add_sheep(self) -> None:
         """
         Increase the number of counted sheep by one.
@@ -18,6 +19,7 @@ class NotSleeping:
       
         self.count_sheeps += 1
 
+    
     def lost(self) -> None:
         """
         Reset the sheep count to zero.
@@ -25,9 +27,12 @@ class NotSleeping:
       
         self.count_sheeps = 0
 
+    
     def get_count_sheeps(self) -> int:
         """
         Return the current number of counted sheep.
         """
       
         return self.count_sheeps
+
+
