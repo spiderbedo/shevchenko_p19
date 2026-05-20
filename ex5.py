@@ -1,3 +1,5 @@
+import math
+
 class Point:
     """
     A class representing a point on a plane.
